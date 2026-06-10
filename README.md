@@ -12,20 +12,20 @@ This project serves as the **single source of truth** for AI programming assista
 
 ## File Structure
 
-| File | Description | Live Preview |
-|------|-------------|--------------|
-| `README.md` | This file — project overview | — |
-| `AGENTS.user.md` | AI agent behavior rules & constraints | — |
-| `TODO.md` | Project todo list (auto-managed by agents) | — |
-| `DESIGN.all.md` | Complete UI design system (all styles) | [View All](styles.html) |
-| `DESIGN.neumorphism.md` | Neumorphism design spec | [Preview](styles.html#neumorphism) |
-| `DESIGN.glassmorphism.md` | Glassmorphism design spec | [Preview](styles.html#glassmorphism) |
-| `DESIGN.cyberpunk.md` | Cyberpunk design spec | [Preview](styles.html#cyberpunk) |
-| `DESIGN.claymorphism.md` | Claymorphism design spec | [Preview](styles.html#claymorphism) |
-| `DESIGN.minimalism.md` | Minimalism design spec | [Preview](styles.html#minimalism) |
-| `DESIGN.retro-futurism.md` | Retro Futurism design spec | [Preview](styles.html#retro-futurism) |
-| `DESIGN.aurora.md` | Aurora gradient design spec | [Preview](styles.html#aurora) |
-| `styles.html` | Interactive HTML demo of all 7 styles | [Open](styles.html) |
+```
+.
+├── README.md                  # This file — project overview
+├── AGENTS.user.md             # AI agent behavior rules & constraints
+├── TODO.md                    # Project todo list (auto-managed by agents)
+├── DESIGN.neumorphism.md      # Neumorphism design spec
+├── DESIGN.glassmorphism.md    # Glassmorphism design spec
+├── DESIGN.cyberpunk.md        # Cyberpunk design spec
+├── DESIGN.claymorphism.md     # Claymorphism design spec
+├── DESIGN.minimalism.md       # Minimalism design spec
+├── DESIGN.retro-futurism.md   # Retro Futurism design spec
+├── DESIGN.aurora.md           # Aurora gradient design spec
+└── styles.preview.html        # Interactive HTML preview (open locally in browser)
+```
 
 ## Usage
 
@@ -43,34 +43,6 @@ This project serves as the **single source of truth** for AI programming assista
 | Brand / Marketing | Retro Futurism + Aurora | Strong visual impact |
 | AI / SaaS | Aurora ✅ | Linear / Notion AI standard, timeless |
 | Luxury / High-end | Minimalism | Premium feel, whitespace aesthetics |
-
-## Embedded HTML Preview
-
-You can embed the interactive style demo directly in your own HTML pages using the code below. Open `styles.html` in a browser to view all 7 styles in action.
-
-### Full Collection
-
-```html
-<iframe src="styles.html" width="100%" height="800" frameborder="0"></iframe>
-```
-
-### Single Style (example: Aurora)
-
-```html
-<iframe src="styles.html#aurora" width="100%" height="500" frameborder="0"></iframe>
-```
-
-### Available Anchor IDs
-
-| Style | Anchor ID |
-|-------|-----------|
-| Neumorphism | `styles.html#neumorphism` |
-| Glassmorphism | `styles.html#glassmorphism` |
-| Cyberpunk | `styles.html#cyberpunk` |
-| Claymorphism | `styles.html#claymorphism` |
-| Minimalism | `styles.html#minimalism` |
-| Retro Futurism | `styles.html#retro-futurism` |
-| Aurora Gradient | `styles.html#aurora` |
 
 ---
 
