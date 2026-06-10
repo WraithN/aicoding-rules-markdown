@@ -44,6 +44,22 @@ This project serves as the **single source of truth** for AI programming assista
 | AI / SaaS | Aurora ✅ | Linear / Notion AI standard, timeless |
 | Luxury / High-end | Minimalism | Premium feel, whitespace aesthetics |
 
+## Style Preview Index
+
+Click any style below to view its live preview:
+
+| # | Style | Preview |
+|---|-------|---------|
+| 1 | **Neumorphism** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#neumorphism) |
+| 2 | **Glassmorphism** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#glassmorphism) |
+| 3 | **Cyberpunk** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#cyberpunk) |
+| 4 | **Claymorphism** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#claymorphism) |
+| 5 | **Minimalism** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#minimalism) |
+| 6 | **Retro Futurism** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#retro-futurism) |
+| 7 | **Aurora Gradient** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#aurora) |
+
+> **Tip:** Open the [full preview page](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html) to see all styles at once.
+
 ---
 
 > *(Note: Portions of design documentation may be AI-generated.)*
