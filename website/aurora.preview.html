@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>极光弥散风｜独立站预览</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script>tailwind.config={theme:{extend:{colors:{aurora:{purple:'#7877C6',blue:'#5B8DEF',cyan:'#3CC8C8'}}}}}</script>
+<style>
+.aurora-bg{background:radial-gradient(ellipse 80% 50% at 20% -20%,rgba(120,119,198,.3),transparent),radial-gradient(ellipse 60% 40% at 80% 0%,rgba(91,141,239,.25),transparent),radial-gradient(ellipse 50% 60% at 110% 90%,rgba(60,200,200,.2),transparent),#FAFAFA;background-attachment:fixed}
+.glass{background:rgba(255,255,255,.7);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.8);border-radius:24px;box-shadow:0 1px 2px rgba(0,0,0,.03),0 4px 16px rgba(0,0,0,.04);transition:all .3s cubic-bezier(.4,0,.2,1)}
+.glass:hover{transform:translateY(-4px);background:rgba(255,255,255,.9);box-shadow:0 4px 12px rgba(0,0,0,.06),0 12px 40px rgba(120,119,198,.1)}
+.btn-aurora{background:linear-gradient(135deg,#7877C6,#5B8DEF,#3CC8C8);background-size:200% 200%;transition:all .3s ease}
+.btn-aurora:hover{background-position:100% 100%;transform:translateY(-2px)}
+.text-aurora{background:linear-gradient(135deg,#7877C6,#5B8DEF);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+</style>
+</head>
+<body class="aurora-bg min-h-screen font-sans antialiased">
+<nav class="max-w-7xl mx-auto px-6 py-6">
+<div class="glass px-6 py-4 flex items-center justify-between">
+<span class="font-bold text-xl text-aurora">Aurora AI</span>
+<div class="hidden md:flex gap-8 text-sm text-gray-600"><a href="#">产品</a><a href="#">功能</a><a href="#">定价</a></div>
+<button class="btn-aurora px-5 py-2 rounded-xl text-white text-sm">免费试用</button>
+</div>
+</nav>
+<section class="max-w-7xl mx-auto px-6 py-16 text-center">
+<h1 class="text-5xl font-bold mb-6">下一代 <span class="text-aurora">智能科技</span> 平台</h1>
+<p class="text-gray-500 text-xl max-w-2xl mx-auto mb-10">极光柔光设计，克制高级，适配AI与科技产品品牌调性</p>
+<div class="flex justify-center gap-4">
+<button class="btn-aurora px-8 py-4 rounded-xl text-white text-lg">立即开始</button>
+<button class="glass px-8 py-4 rounded-xl text-gray-700">了解更多</button>
+</div>
+</section>
+<section class="max-w-7xl mx-auto px-6 pb-20 grid md:grid-cols-3 gap-6">
+<div class="glass p-8"><h3 class="text-xl font-bold mb-3">极致柔和</h3><p class="text-gray-500">低饱和光晕，护眼高级</p></div>
+<div class="glass p-8"><h3 class="text-xl font-bold mb-3">层次通透</h3><p class="text-gray-500">玻璃分层，结构清晰</p></div>
+<div class="glass p-8"><h3 class="text-xl font-bold mb-3">主流耐看</h3><p class="text-gray-500">一线AI产品标配视觉</p></div>
+</section>
+</body>
+</html>

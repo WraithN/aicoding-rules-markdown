@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Y2K千禧复古风｜APP预览</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+.y2k-bg{background:#E8E8E8;font-family:'VT323',monospace}
+.y2k-window{background:#C0C0C0;border:2px solid;border-color:#FFFFFF #808080 #808080 #FFFFFF}
+.y2k-btn{background:#C0C0C0;border:2px solid;border-color:#FFFFFF #808080 #808080 #FFFFFF;padding:6px 16px;font-size:14px}
+.y2k-btn:active{border-color:#808080 #FFFFFF #FFFFFF #808080}
+.y2k-title{background:linear-gradient(90deg,#000080,#1084d0);color:white;padding:4px 8px;font-size:16px}
+.y2k-gradient{background:linear-gradient(135deg,#FF6B6B,#48DBFB,#FF9FF3);background-size:200% 200%;animation:shift 4s ease infinite}
+@keyframes shift{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+</style>
+</head>
+<body class="y2k-bg min-h-screen p-4 max-w-md mx-auto">
+<div class="y2k-window mb-4">
+<div class="y2k-title flex justify-between items-center"><span>My Computer</span><span>✕</span></div>
+<div class="p-4">
+<h1 class="text-2xl mb-2">Y2K 复古空间</h1>
+<p class="text-gray-700 mb-4">Welcome back to 2000s</p>
+<div class="grid grid-cols-3 gap-3 mb-4">
+<div class="y2k-btn text-center"><i class="fa fa-folder text-yellow-600 text-xl"></i><div class="text-xs mt-1">Photos</div></div>
+<div class="y2k-btn text-center"><i class="fa fa-music text-purple-600 text-xl"></i><div class="text-xs mt-1">Music</div></div>
+<div class="y2k-btn text-center"><i class="fa fa-gamepad text-green-600 text-xl"></i><div class="text-xs mt-1">Games</div></div>
+</div>
+<button class="y2k-btn w-full">Start Exploration</button>
+</div>
+</div>
+<div class="y2k-gradient h-2 rounded"></div>
+</body>
+</html>

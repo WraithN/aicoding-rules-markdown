@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>新拟态柔色柔光风｜APP预览</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+.neo-bg{background:#E8ECF1}
+.neo-card{background:#E8ECF1;border-radius:20px;box-shadow:6px 6px 12px #C5CDD7,-6px -6px 12px #fff;padding:20px}
+.neo-btn{background:#E8ECF1;border-radius:16px;box-shadow:4px 4px 8px #C5CDD7,-4px -4px 8px #fff;transition:all .2s}
+.neo-btn:active{box-shadow:inset 3px 3px 6px #C5CDD7,inset -3px -3px 6px #fff}
+.neo-input{background:#E8ECF1;border-radius:12px;box-shadow:inset 3px 3px 6px #C5CDD7,inset -3px -3px 6px #fff;border:none;padding:12px 16px;width:100%}
+</style>
+</head>
+<body class="neo-bg min-h-screen p-6 max-w-md mx-auto">
+<h2 class="text-xl font-bold text-gray-600 mb-6">智能家居</h2>
+<div class="neo-card mb-6">
+<div class="flex justify-between items-center mb-4">
+<div>
+<h3 class="font-bold text-gray-700">客厅灯光</h3>
+<p class="text-sm text-gray-500">已开启 · 80% 亮度</p>
+</div>
+<div class="neo-btn w-12 h-12 flex items-center justify-center"><i class="fa fa-power-off text-purple-500"></i></div>
+</div>
+<input type="range" class="w-full accent-purple-500" min="0" max="100" value="80">
+</div>
+<div class="grid grid-cols-3 gap-4 mb-6">
+<div class="neo-btn p-4 text-center"><i class="fa fa-thermometer-half text-gray-600 text-xl mb-2"></i><div class="text-sm text-gray-600">24°C</div></div>
+<div class="neo-btn p-4 text-center"><i class="fa fa-tint text-blue-400 text-xl mb-2"></i><div class="text-sm text-gray-600">55%</div></div>
+<div class="neo-btn p-4 text-center"><i class="fa fa-wifi text-green-500 text-xl mb-2"></i><div class="text-sm text-gray-600">在线</div></div>
+</div>
+<input class="neo-input" placeholder="搜索设备...">
+</body>
+</html>

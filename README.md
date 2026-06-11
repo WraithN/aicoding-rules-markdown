@@ -7,7 +7,7 @@
 This project serves as the **single source of truth** for AI programming assistants when working on codebases. It defines:
 
 1. **Agent Rules** (`AGENTS.user.md`) — Mandatory quality gates, code structure standards, documentation conventions, debugging protocols, and TODO management workflows that every AI assistant must follow.
-2. **UI Design System** (`DESIGN.{style}.md`) — Complete specifications for 7 mainstream UI design styles (Neumorphism, Glassmorphism, Cyberpunk, Claymorphism, Minimalism, Retro Futurism, Aurora) with color systems, core CSS, and component guidelines.
+2. **UI Design System** (`DESIGN-SYSTEM.md`) — Complete design system index covering B2B SaaS, C-end APP, and Website design styles with color systems, core CSS, and component guidelines.
 3. **Project TODO Convention** (`TODO.md`) — Standardized format for tracking pending, in-progress, and completed work items.
 
 ## File Structure
@@ -15,51 +15,106 @@ This project serves as the **single source of truth** for AI programming assista
 ```
 .
 ├── README.md                  # This file — project overview
+├── DESIGN-SYSTEM.md           # Design system master index
 ├── AGENTS.user.md             # AI agent behavior rules & constraints
 ├── TODO.md                    # Project todo list (auto-managed by agents)
-├── DESIGN.neumorphism.md      # Neumorphism design spec
-├── DESIGN.glassmorphism.md    # Glassmorphism design spec
-├── DESIGN.cyberpunk.md        # Cyberpunk design spec
-├── DESIGN.claymorphism.md     # Claymorphism design spec
-├── DESIGN.minimalism.md       # Minimalism design spec
-├── DESIGN.retro-futurism.md   # Retro Futurism design spec
-├── DESIGN.aurora.md           # Aurora gradient design spec
-└── styles.preview.html        # Interactive HTML preview (open locally in browser)
+│
+├── adminpanel/                # B2B SaaS Admin Panel design specs (7 styles)
+│   ├── DESIGN.neumorphism.md
+│   ├── neumorphism.preview.html
+│   ├── DESIGN.glassmorphism.md
+│   ├── glassmorphism.preview.html
+│   ├── DESIGN.cyberpunk.md
+│   ├── cyberpunk.preview.html
+│   ├── DESIGN.claymorphism.md
+│   ├── claymorphism.preview.html
+│   ├── DESIGN.minimalism.md
+│   ├── minimalism.preview.html
+│   ├── DESIGN.retro-futurism.md
+│   ├── retro-futurism.preview.html
+│   ├── DESIGN.aurora.md
+│   └── aurora.preview.html
+│
+├── app/                       # C-end APP design specs (8 styles)
+│   ├── DESIGN.claymorphism.md + claymorphism.preview.html
+│   ├── DESIGN.aurora.md + aurora.preview.html
+│   ├── DESIGN.y2k.md + y2k.preview.html
+│   ├── DESIGN.minimalism.md + minimalism.preview.html
+│   ├── DESIGN.neumorphism.md + neumorphism.preview.html
+│   ├── DESIGN.cyberpunk.md + cyberpunk.preview.html
+│   ├── DESIGN.micro-gradient.md + micro-gradient.preview.html
+│   └── DESIGN.rounded-card.md + rounded-card.preview.html
+│
+└── website/                   # Website design specs (8 styles)
+    ├── DESIGN.aurora.md + aurora.preview.html
+    ├── DESIGN.bento.md + bento.preview.html
+    ├── DESIGN.apple-minimal.md + apple-minimal.preview.html
+    ├── DESIGN.big-type.md + big-type.preview.html
+    ├── DESIGN.brutalism.md + brutalism.preview.html
+    ├── DESIGN.3d-parallax.md + 3d-parallax.preview.html
+    ├── DESIGN.magazine.md + magazine.preview.html
+    └── DESIGN.dark-cyber.md + dark-cyber.preview.html
 ```
 
 ## Usage
 
 - **For AI Assistants**: Read `AGENTS.user.md` before starting any task. Follow all 6 rules strictly.
-- **For Developers**: Reference `DESIGN.{style}.md` when implementing UI. Choose the style that matches your product type.
+- **For Developers**: Reference `DESIGN-SYSTEM.md` to find the right style for your product type, then check the corresponding `DESIGN.{style}.md` for implementation details.
 - **For Project Tracking**: Agents auto-update `TODO.md` with `PENDING` / `IN_PROGRESS` / `COMPLETED` statuses.
 
 ## Design Style Quick Reference
 
-| Product Type | Recommended Style | Rationale |
-|-------------|-------------------|-----------|
-| B2B / Enterprise | Aurora + Glassmorphism | Professional, efficient, accessible |
-| B2C / Consumer | Claymorphism | Friendly, lively, warm |
-| Web3 / Metaverse | Glassmorphism + Cyberpunk | Tech-forward, futuristic |
-| Brand / Marketing | Retro Futurism + Aurora | Strong visual impact |
-| AI / SaaS | Aurora ✅ | Linear / Notion AI standard, timeless |
-| Luxury / High-end | Minimalism | Premium feel, whitespace aesthetics |
+### B2B / SaaS (7 styles)
 
-## Style Preview Index
+| # | Style | File | Preview |
+|---|-------|------|---------|
+| 1 | **Neumorphism** | [adminpanel/DESIGN.neumorphism.md](adminpanel/DESIGN.neumorphism.md) | [Preview](adminpanel/neumorphism.preview.html) |
+| 2 | **Glassmorphism** | [adminpanel/DESIGN.glassmorphism.md](adminpanel/DESIGN.glassmorphism.md) | [Preview](adminpanel/glassmorphism.preview.html) |
+| 3 | **Cyberpunk** | [adminpanel/DESIGN.cyberpunk.md](adminpanel/DESIGN.cyberpunk.md) | [Preview](adminpanel/cyberpunk.preview.html) |
+| 4 | **Claymorphism** | [adminpanel/DESIGN.claymorphism.md](adminpanel/DESIGN.claymorphism.md) | [Preview](adminpanel/claymorphism.preview.html) |
+| 5 | **Minimalism** | [adminpanel/DESIGN.minimalism.md](adminpanel/DESIGN.minimalism.md) | [Preview](adminpanel/minimalism.preview.html) |
+| 6 | **Retro Futurism** | [adminpanel/DESIGN.retro-futurism.md](adminpanel/DESIGN.retro-futurism.md) | [Preview](adminpanel/retro-futurism.preview.html) |
+| 7 | **Aurora Gradient** | [adminpanel/DESIGN.aurora.md](adminpanel/DESIGN.aurora.md) | [Preview](adminpanel/aurora.preview.html) |
 
-Click any style below to view its live preview:
+### C-end APP (8 styles)
 
-| # | Style | Preview |
-|---|-------|---------|
-| 1 | **Neumorphism** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#neumorphism) |
-| 2 | **Glassmorphism** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#glassmorphism) |
-| 3 | **Cyberpunk** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#cyberpunk) |
-| 4 | **Claymorphism** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#claymorphism) |
-| 5 | **Minimalism** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#minimalism) |
-| 6 | **Retro Futurism** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#retro-futurism) |
-| 7 | **Aurora Gradient** | [Preview →](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html#aurora) |
+| # | Style | File | Preview |
+|---|-------|------|---------|
+| 1 | **Claymorphism** | [app/DESIGN.claymorphism.md](app/DESIGN.claymorphism.md) | [Preview](app/claymorphism.preview.html) |
+| 2 | **Aurora** | [app/DESIGN.aurora.md](app/DESIGN.aurora.md) | [Preview](app/aurora.preview.html) |
+| 3 | **Y2K Retro** | [app/DESIGN.y2k.md](app/DESIGN.y2k.md) | [Preview](app/y2k.preview.html) |
+| 4 | **Minimalism** | [app/DESIGN.minimalism.md](app/DESIGN.minimalism.md) | [Preview](app/minimalism.preview.html) |
+| 5 | **Neumorphism** | [app/DESIGN.neumorphism.md](app/DESIGN.neumorphism.md) | [Preview](app/neumorphism.preview.html) |
+| 6 | **Cyberpunk** | [app/DESIGN.cyberpunk.md](app/DESIGN.cyberpunk.md) | [Preview](app/cyberpunk.preview.html) |
+| 7 | **Micro Gradient** | [app/DESIGN.micro-gradient.md](app/DESIGN.micro-gradient.md) | [Preview](app/micro-gradient.preview.html) |
+| 8 | **Rounded Card** | [app/DESIGN.rounded-card.md](app/DESIGN.rounded-card.md) | [Preview](app/rounded-card.preview.html) |
 
-> **Tip:** Open the [full preview page](https://wraithn.github.io/aicoding-rules-markdown/styles.preview.html) to see all styles at once.
+### Website (8 styles)
+
+| # | Style | File | Preview |
+|---|-------|------|---------|
+| 1 | **Aurora** | [website/DESIGN.aurora.md](website/DESIGN.aurora.md) | [Preview](website/aurora.preview.html) |
+| 2 | **Bento Grid** | [website/DESIGN.bento.md](website/DESIGN.bento.md) | [Preview](website/bento.preview.html) |
+| 3 | **Apple Minimal** | [website/DESIGN.apple-minimal.md](website/DESIGN.apple-minimal.md) | [Preview](website/apple-minimal.preview.html) |
+| 4 | **Big Typography** | [website/DESIGN.big-type.md](website/DESIGN.big-type.md) | [Preview](website/big-type.preview.html) |
+| 5 | **Neo Brutalism** | [website/DESIGN.brutalism.md](website/DESIGN.brutalism.md) | [Preview](website/brutalism.preview.html) |
+| 6 | **3D Parallax** | [website/DESIGN.3d-parallax.md](website/DESIGN.3d-parallax.md) | [Preview](website/3d-parallax.preview.html) |
+| 7 | **Magazine Grid** | [website/DESIGN.magazine.md](website/DESIGN.magazine.md) | [Preview](website/magazine.preview.html) |
+| 8 | **Dark Cyber** | [website/DESIGN.dark-cyber.md](website/DESIGN.dark-cyber.md) | [Preview](website/dark-cyber.preview.html) |
+
+## Style Selection Guide
+
+| Product Type | B2B Recommended | APP Recommended | Website Recommended |
+|-------------|-----------------|-----------------|---------------------|
+| AI / SaaS | Aurora + Glassmorphism | Aurora | Aurora / Bento |
+| B2B Enterprise | Minimalism + Aurora | Minimalism | Apple Minimal / Magazine |
+| B2C Consumer | Claymorphism | Claymorphism / Rounded Card | Bento / Big Typography |
+| Web3 / Metaverse | Glassmorphism + Cyberpunk | Cyberpunk | Dark Cyber |
+| Gaming | Cyberpunk | Cyberpunk | 3D Parallax |
+| Luxury / High-end | Minimalism | Minimalism | Apple Minimal |
+| Lifestyle | — | Rounded Card | Magazine |
+| Tools / Efficiency | Neumorphism + Aurora | Micro Gradient / Neumorphism | Bento |
+
+> **Tip:** Open the [Design System Index](DESIGN-SYSTEM.md) for the complete cross-terminal style mapping and detailed selection guide.
 
 ---
-
-> *(Note: Portions of design documentation may be AI-generated.)*

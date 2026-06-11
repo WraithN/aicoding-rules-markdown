@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bento网格风｜独立站预览</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script>tailwind.config={theme:{extend:{colors:{aurora:{purple:'#7877C6',blue:'#5B8DEF'}}}}}</script>
+<style>
+.aurora-bg{background:radial-gradient(ellipse 80% 50% at 20% -20%,rgba(120,119,198,.3),transparent),radial-gradient(ellipse 60% 40% at 80% 0%,rgba(91,141,239,.25),transparent),#FAFAFA;background-attachment:fixed}
+.bento{background:rgba(255,255,255,.7);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.8);border-radius:28px;box-shadow:0 1px 2px rgba(0,0,0,.03),0 4px 16px rgba(0,0,0,.04);transition:all .3s ease}
+.bento:hover{transform:translateY(-4px);background:rgba(255,255,255,.9);box-shadow:0 8px 24px rgba(120,119,198,.08)}
+.text-bento{background:linear-gradient(135deg,#7877C6,#5B8DEF);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.btn-bento{background:linear-gradient(135deg,#7877C6,#5B8DEF);background-size:200% 200%;transition:all .3s ease}
+.btn-bento:hover{background-position:100% 100%}
+</style>
+</head>
+<body class="aurora-bg min-h-screen font-sans">
+<div class="max-w-7xl mx-auto px-6 py-16">
+<div class="text-center mb-12">
+<h1 class="text-5xl font-bold mb-4"><span class="text-bento">Bento 模块化</span> 布局设计</h1>
+<p class="text-gray-500 text-lg">2026 最流行独立站排版｜错落高级｜信息高密度呈现</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-5">
+<div class="bento p-8 md:col-span-2 md:row-span-2">
+<div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-aurora-purple to-aurora-blue flex items-center justify-center mb-6"><i class="fa fa-cube text-white text-xl"></i></div>
+<h3 class="text-2xl font-bold mb-4">自由模块化组合</h3>
+<p class="text-gray-500 mb-6">打破传统均匀栅格，通过大小卡片错落排布，实现杂志级高级视觉，是当前SaaS、AI产品官网首选布局。</p>
+<div class="h-32 bg-gradient-to-br from-aurora-purple/10 to-aurora-blue/10 rounded-2xl"></div>
+</div>
+<div class="bento p-6"><h4 class="font-bold text-lg mb-2">高效排版</h4><p class="text-sm text-gray-500">一屏承载多维信息</p></div>
+<div class="bento p-6"><h4 class="font-bold text-lg mb-2">层次分明</h4><p class="text-sm text-gray-500">重点区块突出展示</p></div>
+<div class="bento p-6"><h4 class="font-bold text-lg mb-2">自适应强</h4><p class="text-sm text-gray-500">全端自动适配</p></div>
+<div class="bento p-6"><h4 class="font-bold text-lg mb-2">大厂质感</h4><p class="text-sm text-gray-500">Linear/Vercel同款</p></div>
+<div class="bento p-8 md:col-span-4 bg-gradient-to-br from-aurora-purple/10 to-aurora-blue/10">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6">
+<div><h3 class="text-2xl font-bold mb-2">即刻启用 Bento 设计</h3><p class="text-gray-500">快速搭建高级产品官网</p></div>
+<button class="btn-bento px-8 py-3 rounded-xl text-white font-medium">立即使用</button>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

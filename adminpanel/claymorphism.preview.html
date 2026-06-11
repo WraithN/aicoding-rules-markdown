@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claymorphism Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clay: { bg: '#f0f4f8', shadow: 'rgba(13, 37, 72, 0.12)' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .clay-card {
+                background: #f0f4f8;
+                border-radius: 24px;
+                box-shadow: 0 12px 24px rgba(13, 37, 72, 0.12), 0 -4px 12px rgba(255, 255, 255, 0.8), inset 0 2px 4px rgba(255, 255, 255, 0.9);
+                border: 1px solid rgba(255, 255, 255, 0.9);
+            }
+            .clay-btn {
+                background: linear-gradient(145deg, #ffffff, #e6e9ef);
+                border-radius: 16px;
+                box-shadow: 4px 4px 10px rgba(13, 37, 72, 0.15), -2px -2px 8px rgba(255, 255, 255, 0.9);
+                transition: all 0.2s;
+            }
+            .clay-btn:active {
+                box-shadow: inset 2px 2px 5px rgba(13, 37, 72, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.8);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen p-8">
+    <div class="max-w-4xl mx-auto">
+        <div class="flex items-center gap-3 mb-6">
+            <span class="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-sm font-medium">04</span>
+            <h2 class="text-xl font-bold">Claymorphism</h2>
+            <span class="text-gray-400 text-sm">Rounded / 3D Soft Texture</span>
+        </div>
+        <p class="text-gray-500 mb-6 text-sm">Large rounded corners, double-layer shadows, light backgrounds, inflated feel.</p>
+        <div class="bg-clay-bg p-8 rounded-3xl">
+            <div class="flex gap-6 items-center flex-wrap">
+                <div class="clay-card p-6 w-72">
+                    <div class="w-16 h-16 clay-btn flex items-center justify-center mb-4">
+                        <i class="fa fa-cloud text-2xl text-blue-500"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 text-lg mb-2">Cloud Storage</h3>
+                    <p class="text-gray-500 text-sm mb-4">Your files are safely stored in the cloud</p>
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-2">
+                            <span class="text-gray-500">Used</span>
+                            <span class="font-medium">24.5 GB / 100 GB</span>
+                        </div>
+                        <div class="h-3 bg-white rounded-full overflow-hidden shadow-inner">
+                            <div class="h-full w-1/4 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full"></div>
+                        </div>
+                    </div>
+                    <button class="clay-btn w-full py-3 font-medium text-gray-700">Upgrade Storage</button>
+                </div>
+                <div class="flex flex-wrap gap-4 w-80">
+                    <button class="clay-btn w-14 h-14 flex items-center justify-center"><i class="fa fa-home text-gray-600"></i></button>
+                    <button class="clay-btn w-14 h-14 flex items-center justify-center"><i class="fa fa-search text-gray-600"></i></button>
+                    <button class="clay-btn w-14 h-14 flex items-center justify-center"><i class="fa fa-bell text-gray-600"></i></button>
+                    <button class="clay-btn w-14 h-14 flex items-center justify-center"><i class="fa fa-user text-gray-600"></i></button>
+                    <button class="clay-btn w-14 h-14 flex items-center justify-center"><i class="fa fa-cog text-gray-600"></i></button>
+                    <button class="clay-btn w-14 h-14 flex items-center justify-center"><i class="fa fa-heart text-pink-500"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

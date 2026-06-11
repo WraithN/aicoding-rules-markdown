@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3D视差沉浸风｜独立站预览</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+.parallax-box{perspective:1000px}
+.parallax-card{transition:transform .2s ease;transform-style:preserve-3d}
+</style>
+</head>
+<body class="bg-gray-950 text-white min-h-screen flex items-center justify-center px-6">
+<div class="parallax-box w-full max-w-2xl" onmousemove="let e=event,t=this.getBoundingClientRect(),x=(e.clientX-t.left-t.width/2)/25,y=(e.clientY-t.top-t.height/2)/25;this.querySelector('.parallax-card').style.transform=`rotateX(${-y}deg) rotateY(${x}deg)`" onmouseleave="this.querySelector('.parallax-card').style.transform='rotateX(0) rotateY(0)'">
+<div class="parallax-card bg-gradient-to-br from-purple-900/40 to-blue-900/40 backdrop-blur-xl rounded-3xl p-10 border border-white/10">
+<h1 class="text-4xl font-bold mb-4">3D 沉浸视差体验</h1>
+<p class="text-gray-300 mb-6">鼠标滑动即可查看立体悬浮效果，打造高级沉浸官网视觉</p>
+<button class="px-6 py-3 bg-white text-black rounded-xl font-medium">深入体验</button>
+</div>
+</div>
+</body>
+</html>

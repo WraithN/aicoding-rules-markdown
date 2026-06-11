@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphism Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        neo: { bg: '#e0e5ec', light: '#ffffff', dark: '#a3b1c6' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .neo-btn {
+                background: #e0e5ec;
+                box-shadow: 6px 6px 12px #a3b1c6, -6px -6px 12px #ffffff;
+                border-radius: 12px;
+                transition: all 0.2s ease;
+            }
+            .neo-btn:active, .neo-btn.active {
+                box-shadow: inset 4px 4px 8px #a3b1c6, inset -4px -4px 8px #ffffff;
+            }
+            .neo-card {
+                background: #e0e5ec;
+                box-shadow: 8px 8px 16px #a3b1c6, -8px -8px 16px #ffffff;
+                border-radius: 20px;
+            }
+            .neo-input {
+                background: #e0e5ec;
+                box-shadow: inset 4px 4px 8px #a3b1c6, inset -4px -4px 8px #ffffff;
+                border-radius: 10px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen p-8">
+    <div class="max-w-4xl mx-auto">
+        <div class="flex items-center gap-3 mb-6">
+            <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">01</span>
+            <h2 class="text-xl font-bold">Neumorphism</h2>
+            <span class="text-gray-400 text-sm">Soft UI / Embossed Effect</span>
+        </div>
+        <p class="text-gray-500 mb-6 text-sm">Light and dark shadows in the same color family create an embossed, pressable feel.</p>
+        <div class="bg-neo-bg p-8 rounded-3xl">
+            <div class="flex flex-wrap gap-6 items-center">
+                <div class="neo-card p-6 w-64">
+                    <div class="neo-btn w-12 h-12 flex items-center justify-center mb-4">
+                        <i class="fa fa-music text-gray-500"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-700 mb-2">Music Player</h3>
+                    <p class="text-sm text-gray-500 mb-4">Soft UI Design System</p>
+                    <div class="neo-input p-3 text-sm text-gray-500 mb-4">Search music...</div>
+                    <div class="flex gap-3">
+                        <button class="neo-btn px-4 py-2 text-sm text-gray-600 active">Play</button>
+                        <button class="neo-btn px-4 py-2 text-sm text-gray-600">Next</button>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex gap-4">
+                        <button class="neo-btn w-12 h-12 flex items-center justify-center"><i class="fa fa-play text-gray-600"></i></button>
+                        <button class="neo-btn w-12 h-12 flex items-center justify-center"><i class="fa fa-pause text-gray-600"></i></button>
+                        <button class="neo-btn w-12 h-12 flex items-center justify-center"><i class="fa fa-stop text-gray-600"></i></button>
+                    </div>
+                    <div class="neo-input p-3 w-48">
+                        <div class="h-2 bg-gray-300 rounded-full overflow-hidden">
+                            <div class="h-full w-2/3 bg-gray-500 rounded-full"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

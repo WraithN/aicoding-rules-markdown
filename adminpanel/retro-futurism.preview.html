@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Futurism Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .retro-gradient {
+                background: linear-gradient(135deg, #ff6b6b, #feca57, #48dbfb, #ff9ff3);
+                background-size: 400% 400%;
+                animation: gradientShift 8s ease infinite;
+            }
+            @keyframes gradientShift {
+                0%, 100% { background-position: 0% 50%; }
+                50% { background-position: 100% 50%; }
+            }
+            .retro-grid {
+                background-image: linear-gradient(rgba(255,107,107,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,107,107,0.1) 1px, transparent 1px);
+                background-size: 20px 20px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen p-8">
+    <div class="max-w-4xl mx-auto">
+        <div class="flex items-center gap-3 mb-6">
+            <span class="px-3 py-1 bg-gradient-to-r from-pink-500 to-yellow-500 text-white rounded-full text-sm font-medium">06</span>
+            <h2 class="text-xl font-bold">Retro Futurism</h2>
+            <span class="text-gray-400 text-sm">80s Retro / Vaporwave / Gradient Grid</span>
+        </div>
+        <p class="text-gray-500 mb-6 text-sm">High-saturation gradients, grids, retro computer fonts, neon.</p>
+        <div class="retro-gradient retro-grid p-8 rounded-3xl relative overflow-hidden">
+            <div class="relative bg-white/90 backdrop-blur-sm rounded-2xl p-8 max-w-lg mx-auto">
+                <h3 class="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 mb-4">SYNTHWAVE</h3>
+                <p class="text-gray-600 mb-6">Back to 1984, experience retro-futurist aesthetics. Neon, grids, endless sunsets.</p>
+                <div class="flex gap-4">
+                    <button class="px-6 py-3 retro-gradient text-white font-bold rounded-lg">Enter Neon</button>
+                    <button class="px-6 py-3 border-2 border-pink-500 text-pink-500 font-bold rounded-lg hover:bg-pink-500 hover:text-white transition-colors">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

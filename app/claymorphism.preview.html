@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>粘土软UI｜APP预览</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+.clay-bg{background:#F0F4F8}
+.clay{background:#fff;border-radius:24px;border:1px solid rgba(255,255,255,.9);box-shadow:0 12px 24px rgba(13,37,72,.12),inset 0 2px 4px rgba(255,255,255,.9);transition:all .2s ease}
+.clay-btn{border-radius:20px;background:linear-gradient(145deg,#fff,#e6e9ef);box-shadow:4px 4px 10px rgba(13,37,72,.15),-2px -2px 8px rgba(255,255,255,.9);transition:all .2s ease}
+.clay-btn:active{box-shadow:inset 2px 2px 5px rgba(13,37,72,.1),inset -2px -2px 5px rgba(255,255,255,.8);transform:translateY(1px)}
+</style>
+</head>
+<body class="clay-bg min-h-screen p-6 max-w-md mx-auto">
+<h1 class="text-2xl font-bold text-gray-800 mb-6">粘土软UI 主页</h1>
+<div class="grid grid-cols-2 gap-4 mb-6">
+<div class="clay p-5"><i class="fa fa-heart text-purple-500 text-xl mb-3"></i><h3 class="font-semibold">收藏</h3></div>
+<div class="clay p-5"><i class="fa fa-comment text-blue-500 text-xl mb-3"></i><h3 class="font-semibold">消息</h3></div>
+<div class="clay p-5"><i class="fa fa-calendar text-cyan-500 text-xl mb-3"></i><h3 class="font-semibold">日程</h3></div>
+<div class="clay p-5"><i class="fa fa-cog text-gray-600 text-xl mb-3"></i><h3 class="font-semibold">设置</h3></div>
+</div>
+<div class="clay p-6 mb-6"><h3 class="font-bold text-lg mb-2">今日数据</h3><p class="text-gray-500 text-sm">实时统计你的日常数据</p></div>
+<button class="clay-btn w-full py-4 font-medium text-gray-800">点击按压体验质感</button>
+</body>
+</html>
