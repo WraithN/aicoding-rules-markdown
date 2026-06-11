@@ -68,39 +68,39 @@ This project serves as the **single source of truth** for AI programming assista
 
 | # | Style | File | Preview |
 |---|-------|------|---------|
-| 1 | **Neumorphism** | [adminpanel/DESIGN.neumorphism.md](adminpanel/DESIGN.neumorphism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/neumorphism.preview.html) |
-| 2 | **Glassmorphism** | [adminpanel/DESIGN.glassmorphism.md](adminpanel/DESIGN.glassmorphism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/glassmorphism.preview.html) |
-| 3 | **Cyberpunk** | [adminpanel/DESIGN.cyberpunk.md](adminpanel/DESIGN.cyberpunk.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/cyberpunk.preview.html) |
-| 4 | **Claymorphism** | [adminpanel/DESIGN.claymorphism.md](adminpanel/DESIGN.claymorphism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/claymorphism.preview.html) |
-| 5 | **Minimalism** | [adminpanel/DESIGN.minimalism.md](adminpanel/DESIGN.minimalism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/minimalism.preview.html) |
-| 6 | **Retro Futurism** | [adminpanel/DESIGN.retro-futurism.md](adminpanel/DESIGN.retro-futurism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/retro-futurism.preview.html) |
-| 7 | **Aurora Gradient** | [adminpanel/DESIGN.aurora.md](adminpanel/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/aurora.preview.html) |
+| 1 | **Neumorphism** | [adminpanel/DESIGN.neumorphism.md](adminpanel/DESIGN.neumorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/neumorphism.preview.html) |
+| 2 | **Glassmorphism** | [adminpanel/DESIGN.glassmorphism.md](adminpanel/DESIGN.glassmorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/glassmorphism.preview.html) |
+| 3 | **Cyberpunk** | [adminpanel/DESIGN.cyberpunk.md](adminpanel/DESIGN.cyberpunk.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/cyberpunk.preview.html) |
+| 4 | **Claymorphism** | [adminpanel/DESIGN.claymorphism.md](adminpanel/DESIGN.claymorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/claymorphism.preview.html) |
+| 5 | **Minimalism** | [adminpanel/DESIGN.minimalism.md](adminpanel/DESIGN.minimalism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/minimalism.preview.html) |
+| 6 | **Retro Futurism** | [adminpanel/DESIGN.retro-futurism.md](adminpanel/DESIGN.retro-futurism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/retro-futurism.preview.html) |
+| 7 | **Aurora Gradient** | [adminpanel/DESIGN.aurora.md](adminpanel/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/aurora.preview.html) |
 
 ### C-end APP (8 styles)
 
 | # | Style | File | Preview |
 |---|-------|------|---------|
-| 1 | **Claymorphism** | [app/DESIGN.claymorphism.md](app/DESIGN.claymorphism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/claymorphism.preview.html) |
-| 2 | **Aurora** | [app/DESIGN.aurora.md](app/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/aurora.preview.html) |
-| 3 | **Y2K Retro** | [app/DESIGN.y2k.md](app/DESIGN.y2k.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/y2k.preview.html) |
-| 4 | **Minimalism** | [app/DESIGN.minimalism.md](app/DESIGN.minimalism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/minimalism.preview.html) |
-| 5 | **Neumorphism** | [app/DESIGN.neumorphism.md](app/DESIGN.neumorphism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/neumorphism.preview.html) |
-| 6 | **Cyberpunk** | [app/DESIGN.cyberpunk.md](app/DESIGN.cyberpunk.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/cyberpunk.preview.html) |
-| 7 | **Micro Gradient** | [app/DESIGN.micro-gradient.md](app/DESIGN.micro-gradient.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/micro-gradient.preview.html) |
-| 8 | **Rounded Card** | [app/DESIGN.rounded-card.md](app/DESIGN.rounded-card.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/rounded-card.preview.html) |
+| 1 | **Claymorphism** | [app/DESIGN.claymorphism.md](app/DESIGN.claymorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/claymorphism.preview.html) |
+| 2 | **Aurora** | [app/DESIGN.aurora.md](app/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/aurora.preview.html) |
+| 3 | **Y2K Retro** | [app/DESIGN.y2k.md](app/DESIGN.y2k.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/y2k.preview.html) |
+| 4 | **Minimalism** | [app/DESIGN.minimalism.md](app/DESIGN.minimalism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/minimalism.preview.html) |
+| 5 | **Neumorphism** | [app/DESIGN.neumorphism.md](app/DESIGN.neumorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/neumorphism.preview.html) |
+| 6 | **Cyberpunk** | [app/DESIGN.cyberpunk.md](app/DESIGN.cyberpunk.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/cyberpunk.preview.html) |
+| 7 | **Micro Gradient** | [app/DESIGN.micro-gradient.md](app/DESIGN.micro-gradient.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/micro-gradient.preview.html) |
+| 8 | **Rounded Card** | [app/DESIGN.rounded-card.md](app/DESIGN.rounded-card.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/rounded-card.preview.html) |
 
 ### Website (8 styles)
 
 | # | Style | File | Preview |
 |---|-------|------|---------|
-| 1 | **Aurora** | [website/DESIGN.aurora.md](website/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/aurora.preview.html) |
-| 2 | **Bento Grid** | [website/DESIGN.bento.md](website/DESIGN.bento.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/bento.preview.html) |
-| 3 | **Apple Minimal** | [website/DESIGN.apple-minimal.md](website/DESIGN.apple-minimal.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/apple-minimal.preview.html) |
-| 4 | **Big Typography** | [website/DESIGN.big-type.md](website/DESIGN.big-type.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/big-type.preview.html) |
-| 5 | **Neo Brutalism** | [website/DESIGN.brutalism.md](website/DESIGN.brutalism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/brutalism.preview.html) |
-| 6 | **3D Parallax** | [website/DESIGN.3d-parallax.md](website/DESIGN.3d-parallax.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/3d-parallax.preview.html) |
-| 7 | **Magazine Grid** | [website/DESIGN.magazine.md](website/DESIGN.magazine.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/magazine.preview.html) |
-| 8 | **Dark Cyber** | [website/DESIGN.dark-cyber.md](website/DESIGN.dark-cyber.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/dark-cyber.preview.html) |
+| 1 | **Aurora** | [website/DESIGN.aurora.md](website/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/aurora.preview.html) |
+| 2 | **Bento Grid** | [website/DESIGN.bento.md](website/DESIGN.bento.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/bento.preview.html) |
+| 3 | **Apple Minimal** | [website/DESIGN.apple-minimal.md](website/DESIGN.apple-minimal.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/apple-minimal.preview.html) |
+| 4 | **Big Typography** | [website/DESIGN.big-type.md](website/DESIGN.big-type.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/big-type.preview.html) |
+| 5 | **Neo Brutalism** | [website/DESIGN.brutalism.md](website/DESIGN.brutalism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/brutalism.preview.html) |
+| 6 | **3D Parallax** | [website/DESIGN.3d-parallax.md](website/DESIGN.3d-parallax.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/3d-parallax.preview.html) |
+| 7 | **Magazine Grid** | [website/DESIGN.magazine.md](website/DESIGN.magazine.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/magazine.preview.html) |
+| 8 | **Dark Cyber** | [website/DESIGN.dark-cyber.md](website/DESIGN.dark-cyber.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/dark-cyber.preview.html) |
 
 ## Style Selection Guide
 
