@@ -1,40 +1,40 @@
-# APP 07｜微渐变轻质感风
+# APP 07｜Micro Gradient Lightweight Texture Style
 
-> **推荐指数**：⭐⭐⭐⭐
-> **代表**：记账类APP / 健康类APP / 日程管理工具
+> **Recommendation**: ⭐⭐⭐⭐
+> **Representatives**: Bookkeeping Apps / Health Apps / Schedule Management Tools
 > 
 > 
 
-## 适用场景
+## Use Cases
 
-记账类APP、健康类APP、日程管理工具、轻量工具类。微妙的色彩过渡，轻盈不油腻。
+Bookkeeping apps, health apps, schedule management tools, lightweight utility apps. Subtle color transitions, light and non-greasy.
 
-## 设计理念
+## Design Philosophy
 
-采用极微妙的渐变过渡（而非强烈对比），配合轻量阴影和细边框，营造高级感的同时保持界面清爽。
+Adopts extremely subtle gradient transitions (rather than strong contrast), paired with lightweight shadows and thin borders, creating a premium feel while keeping the interface clean and fresh.
 
-## 核心特点
+## Core Characteristics
 
-- ✅ 微渐变背景（同色系 5% 差异）
-- ✅ 极轻阴影（y: 2px, blur: 8px, opacity: 0.06）
-- ✅ 细边框（0.5px 或 1px 浅灰）
-- ✅ 圆角 12-16px
-- ✅ 图标使用线性渐变填充
+- ✅ Micro gradient background (same color family 5% difference)
+- ✅ Ultra-light shadows (y: 2px, blur: 8px, opacity: 0.06)
+- ✅ Thin borders (0.5px or 1px light gray)
+- ✅ Border radius 12-16px
+- ✅ Icons use linear gradient fill
 
-## 色彩系统
+## Color System
 
 ```Plain Text
-背景渐变：#FAFBFC → #F5F6F8
-卡片背景：#FFFFFF
-主色调：#6366F1（靛蓝）
-辅助色：#8B5CF6（紫）/ #10B981（绿）
-文字主色：#1F2937
-文字辅色：#6B7280
-边框色：rgba(0,0,0,0.06)
-阴影色：rgba(0,0,0,0.06)
+Background Gradient: #FAFBFC → #F5F6F8
+Card Background:     #FFFFFF
+Primary Color:       #6366F1 (Indigo)
+Secondary Colors:    #8B5CF6 (Purple) / #10B981 (Green)
+Primary Text:        #1F2937
+Secondary Text:      #6B7280
+Border Color:        rgba(0,0,0,0.06)
+Shadow Color:        rgba(0,0,0,0.06)
 ```
 
-## 核心 CSS
+## Core CSS
 
 ```css
 .micro-bg {
@@ -64,13 +64,13 @@
 }
 ```
 
-## 组件规范
+## Component Specifications
 
-- **卡片圆角**：16px
-- **按钮圆角**：12px
-- **阴影**：极轻，几乎不可见但提供层次
-- **边框**：0.5px 浅灰，增加精致感
-- **渐变角度**：135° 或 180°
-- **适用**：记账、健康、日程、轻量工具
+- **Card Border Radius**: 16px
+- **Button Border Radius**: 12px
+- **Shadow**: Ultra-light, almost invisible but provides hierarchy
+- **Border**: 0.5px light gray, adds a refined feel
+- **Gradient Angle**: 135° or 180°
+- **Applicable To**: Bookkeeping, health, schedules, lightweight tools
 
 ---

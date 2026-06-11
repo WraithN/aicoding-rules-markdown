@@ -1,37 +1,37 @@
-# 独立站 05｜新粗野主义 Neo Brutalism
+# Website 05 | Neo Brutalism
 
-> **推荐指数**：⭐⭐⭐
-> **代表**：潮牌 / 设计师个人站 / 艺术工作室
+> **Rating**: ⭐⭐⭐
+> **Representatives**: Streetwear Brands / Designer Personal Sites / Art Studios
 > 
 > 
 
-## 适用场景
+## Applicable Scenarios
 
-潮牌、设计师个人站、艺术工作室、Z世代创意产品。
+Streetwear brands, designer personal sites, art studios, Gen Z creative products.
 
-## 设计理念
+## Design Philosophy
 
-反精致、反主流柔和审美，粗黑描边、高饱和撞色、错位阴影、像素感排版，张扬个性、年轻叛逆。
+Anti-refinement, anti-mainstream soft aesthetics. Thick black outlines, high-saturation color clashes, offset shadows, pixel-style typography. Bold personality, youthful rebellion.
 
-## 核心特征
+## Core Characteristics
 
-- 2~3px 粗黑实体描边
-- 错位悬浮阴影（不模糊、实体投影）
-- 高饱和纯色块，无渐变
-- 不规则排版、轻微错位
-- 无圆角/小圆角
+- 2~3px thick solid black outlines
+- Offset floating shadows (no blur, solid projection)
+- High-saturation solid color blocks, no gradients
+- Irregular typography, slight misalignment
+- No border-radius / small border-radius
 
-## 色彩
+## Colors
 
 ```Plain Text
-亮黄：#FFE500
-艳蓝：#0066FF
-橘红：#FF6B35
-纯黑：#000000
-纯白：#FFFFFF
+Bright Yellow: #FFE500
+Vivid Blue: #0066FF
+Orange Red: #FF6B35
+Pure Black: #000000
+Pure White: #FFFFFF
 ```
 
-## 核心 CSS
+## Core CSS
 
 ```css
 .brutal-card {
@@ -61,14 +61,14 @@
 .brutal-orange { background: #FF6B35; color: white; }
 ```
 
-## 组件规范
+## Component Specifications
 
-- **卡片**：实体描边 + 右下错位阴影
-- **按钮**：粗边框 + 纯色填充
-- **字体**：粗体无衬线，张扬有力
+- **Cards**: Solid outline + bottom-right offset shadow
+- **Buttons**: Thick borders + solid fill
+- **Fonts**: Bold sans-serif, bold and powerful
 
-## 优势
+## Advantages
 
-极强记忆点、年轻化、小众高级、适配潮流品牌
+Extremely memorable, youthful, niche premium, suitable for trendy brands
 
 ---

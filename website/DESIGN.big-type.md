@@ -1,39 +1,39 @@
-# 独立站 04｜全屏超大字体冲击风
+# Website 04 | Full-Screen Oversized Typography Impact Style
 
-> **推荐指数**：⭐⭐⭐⭐
-> **代表**：品牌发布会 / 新品落地页 / 个人作品集
+> **Rating**: ⭐⭐⭐⭐
+> **Representatives**: Brand Launch Events / New Product Landing Pages / Personal Portfolios
 > 
 > 
 
-## 适用场景
+## Applicable Scenarios
 
-品牌发布会、新品落地页、个人作品集、创意工作室、营销单页。
+Brand launch events, new product landing pages, personal portfolios, creative studios, marketing single pages.
 
-## 设计理念
+## Design Philosophy
 
-以文字为视觉主体，超大字号占据屏幕主导，弱化图片、强化文字情绪冲击力，极简、张扬、记忆点极强。
+Text as the visual protagonist. Oversized fonts dominate the screen, weakening images while strengthening the emotional impact of text. Minimalist, bold, and extremely memorable.
 
-## 核心特征
+## Core Characteristics
 
-- 首屏单句超大标题，占据视觉中心
-- 极简导航、无冗余元素
-- 一屏一主题，滚动即切换内容
-- 字重极强对比
-- 背景极简，突出文字
+- Single oversized headline on the first screen, occupying the visual center
+- Minimal navigation, no redundant elements
+- One screen per theme, scrolling switches content
+- Strong font weight contrast
+- Minimal background to highlight text
 
-## 字号规范
+## Typography Specifications
 
 ```Plain Text
-首屏主标题：80~120px（clamp(60px, 12vw, 110px)）
-副标题：24~32px
-正文：16px
+Hero Main Title: 80~120px (clamp(60px, 12vw, 110px))
+Subtitle: 24~32px
+Body: 16px
 ```
 
-## 色彩
+## Colors
 
-黑白主色 + 单点高饱和点缀
+Black and white as primary colors + single high-saturation accent
 
-## 核心 CSS
+## Core CSS
 
 ```css
 .big-title {
@@ -53,8 +53,8 @@
 }
 ```
 
-## 优势
+## Advantages
 
-视觉冲击力顶级、品牌记忆点超强、适配创意类、发布类官网
+Top-tier visual impact, super strong brand memorability, suitable for creative and launch event official websites
 
 ---

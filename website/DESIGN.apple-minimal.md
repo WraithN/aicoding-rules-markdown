@@ -1,46 +1,46 @@
-# 独立站 03｜Apple 极简留白高端风
+# Website 03 | Apple Minimal White Space Premium Style
 
-> **推荐指数**：⭐⭐⭐⭐⭐
-> **代表**：Apple官网 / Airbnb / Arcade.studio
+> **Rating**: ⭐⭐⭐⭐⭐
+> **Representatives**: Apple Official Website / Airbnb / Arcade.studio
 > 
 > 
 
-## 适用场景
+## Applicable Scenarios
 
-高端品牌、数码硬件、奢侈品、建筑设计、艺术工作室、高端民宿。
+Premium brands, digital hardware, luxury goods, architectural design, art studios, high-end boutique hotels.
 
-## 设计理念
+## Design Philosophy
 
-Less is More，超大留白、极少元素、极强字重对比，去掉所有装饰，用留白和排版营造奢侈高级感。
+Less is More. Extra-large white space, minimal elements, strong font weight contrast. Remove all decorations, use white space and typography to create a luxurious, premium feel.
 
-## 核心特点
+## Core Features
 
-- 全局超大间距（常规设计1.5~2倍）
-- 纯黑白灰体系，极少点缀色
-- 极强字重层级：粗标题、细正文
-- 无圆角/极小圆角
-- 无复杂阴影、无渐变堆砌
+- Global extra-large spacing (1.5~2x conventional design)
+- Pure black, white, and gray system, minimal accent colors
+- Strong font weight hierarchy: bold headings, thin body text
+- No border-radius / minimal border-radius
+- No complex shadows, no gradient stacking
 
-## 色彩系统
-
-```Plain Text
-纯黑：#000000
-深灰：#1A1A1A
-中灰：#666666
-浅灰：#999999
-边框灰：#E5E5E5
-纯白：#FFFFFF
-```
-
-## 排版规范
+## Color System
 
 ```Plain Text
-H1：64~80px / 600 / 1.1行高 / -0.02字间距
-H2：32~40px / 500 / 1.2行高
-正文：16~18px / 400 / 1.6行高
+Pure Black: #000000
+Dark Gray: #1A1A1A
+Medium Gray: #666666
+Light Gray: #999999
+Border Gray: #E5E5E5
+Pure White: #FFFFFF
 ```
 
-## 核心 CSS
+## Typography Specifications
+
+```Plain Text
+H1: 64~80px / 600 / 1.1 line-height / -0.02 letter-spacing
+H2: 32~40px / 500 / 1.2 line-height
+Body: 16~18px / 400 / 1.6 line-height
+```
+
+## Core CSS
 
 ```css
 .apple-h1 {

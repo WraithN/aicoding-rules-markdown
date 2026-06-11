@@ -1,40 +1,40 @@
-# APP 08｜圆润治愈卡片风
+# APP 08｜Rounded Healing Card Style
 
-> **推荐指数**：⭐⭐⭐⭐⭐
-> **代表**：Coze / 潮汐 / 小睡眠 / 冥想类APP
+> **Recommendation**: ⭐⭐⭐⭐⭐
+> **Representatives**: Coze / Tide / Little Sleep / Meditation Apps
 > 
 > 
 
-## 适用场景
+## Use Cases
 
-冥想类APP、睡眠辅助、心理健康、生活方式、宠物类APP。极致圆润、治愈配色、无攻击性。
+Meditation apps, sleep aids, mental health, lifestyle, pet apps. Extremely rounded, healing color palette, non-aggressive.
 
-## 设计理念
+## Design Philosophy
 
-超大圆角（接近正圆）、柔和治愈配色（低饱和粉蓝绿）、无尖锐元素，营造安全感和治愈感。
+Extra large border radius (nearly circular), soft healing color palette (low-saturation pink, blue, green), no sharp elements, creating a sense of safety and healing.
 
-## 核心特点
+## Core Characteristics
 
-- ✅ 超大圆角卡片（24-32px）
-- ✅ 治愈配色：低饱和粉、蓝、绿、米白
-- ✅ 无直角、无尖锐线条
-- ✅ 大间距、大留白
-- ✅ 柔和插画风格图标
+- ✅ Extra large border radius cards (24-32px)
+- ✅ Healing color palette: low-saturation pink, blue, green, off-white
+- ✅ No right angles, no sharp lines
+- ✅ Large spacing, abundant white space
+- ✅ Soft illustration-style icons
 
-## 色彩系统
+## Color System
 
 ```Plain Text
-背景色：#FFF9F5（暖米白）
-卡片色：#FFFFFF
-治愈粉：#FFB5B5
-治愈蓝：#B5D8FF
-治愈绿：#B5E4CA
-治愈黄：#FFE4B5
-文字主色：#4A4A4A
-文字辅色：#9A9A9A
+Background:       #FFF9F5 (Warm Off-White)
+Card:             #FFFFFF
+Healing Pink:     #FFB5B5
+Healing Blue:     #B5D8FF
+Healing Green:    #B5E4CA
+Healing Yellow:   #FFE4B5
+Primary Text:     #4A4A4A
+Secondary Text:   #9A9A9A
 ```
 
-## 核心 CSS
+## Core CSS
 
 ```css
 .heal-bg {
@@ -74,13 +74,13 @@
 }
 ```
 
-## 组件规范
+## Component Specifications
 
-- **卡片圆角**：28-32px
-- **按钮圆角**：24px（接近药丸形）
-- **配色**：低饱和暖色调为主
-- **间距**：大间距，呼吸感强
-- **图标**：圆润插画风格，避免线性图标
-- **适用**：冥想、睡眠、心理健康、生活方式、宠物
+- **Card Border Radius**: 28-32px
+- **Button Border Radius**: 24px (nearly pill-shaped)
+- **Color Palette**: Low-saturation warm tones as primary
+- **Spacing**: Large spacing, strong breathing room
+- **Icons**: Rounded illustration style, avoid linear icons
+- **Applicable To**: Meditation, sleep, mental health, lifestyle, pets
 
 ---

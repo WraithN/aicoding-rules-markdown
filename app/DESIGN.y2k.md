@@ -1,35 +1,35 @@
-# APP 03｜Y2K 千禧复古风
+# APP 03｜Y2K Millennium Retro Style
 
-> **推荐指数**：⭐⭐⭐
-> **代表**：啫喱 / 多款社交新产品
+> **Recommendation**: ⭐⭐⭐
+> **Representatives**: Jelly / Multiple New Social Products
 > 
 > 
 
-## 适用场景
+## Use Cases
 
-社交 APP、拍照 / 修图 APP、潮牌社区、年轻人工具。Windows95 质感、像素字体、千禧年怀旧美学。
+Social apps, photo / editing apps, streetwear communities, youth tools. Windows 95 texture, pixel fonts, millennium nostalgia aesthetics.
 
-## 设计理念
+## Design Philosophy
 
-Windows95 质感、像素字体、千禧年怀旧美学。Y2K 复兴。
+Windows 95 texture, pixel fonts, millennium nostalgia aesthetics. Y2K revival.
 
-## 核心特点
+## Core Characteristics
 
-- ✅ Windows95 灰色立体按钮
-- ✅ 像素字体 / 点阵
-- ✅ 2px 凸起边框（外亮内暗）
-- ✅ 高饱和彩虹渐变
+- ✅ Windows 95 gray 3D buttons
+- ✅ Pixel fonts / dot matrix
+- ✅ 2px raised borders (outer light, inner dark)
+- ✅ High-saturation rainbow gradients
 
-## 色彩系统
+## Color System
 
 ```Plain Text
-Win95灰： #C0C0C0
-亮边：    #FFFFFF
-暗边：    #808080
-渐变：    #FF6B6B → #48DBFB → #FF9FF3
+Win95 Gray:  #C0C0C0
+Light Edge:  #FFFFFF
+Dark Edge:   #808080
+Gradient:    #FF6B6B → #48DBFB → #FF9FF3
 ```
 
-## 核心 CSS
+## Core CSS
 
 ```css
 .y2k-card {
@@ -64,11 +64,11 @@ Win95灰： #C0C0C0
 }
 ```
 
-## 组件规范
+## Component Specifications
 
-- **边框风格**：2px 立体凸起边框
-- **字体**：像素字体 / 粗体无衬线
-- **配色**：Win95 灰 + 高饱和彩虹渐变点缀
-- **适用**：社交 APP、拍照 / 修图 APP、潮牌社区、年轻人工具
+- **Border Style**: 2px 3D raised border
+- **Font**: Pixel font / bold sans-serif
+- **Color Palette**: Win95 gray + high-saturation rainbow gradient accents
+- **Applicable To**: Social apps, photo / editing apps, streetwear communities, youth tools
 
 ---

@@ -1,35 +1,35 @@
-# APP 06｜暗黑霓虹赛博APP风
+# APP 06｜Dark Neon Cyberpunk App Style
 
-> **推荐指数**：⭐⭐⭐
-> **代表**：原神 / 崩坏：星穹铁道 / 游戏类
+> **Recommendation**: ⭐⭐⭐
+> **Representatives**: Genshin Impact / Honkai: Star Rail / Game Apps
 > 
 > 
 
-## 适用场景
+## Use Cases
 
-游戏 APP、二次元社区、科技媒体、极客工具。深底色 + 霓虹发光字 + 赛博元素。
+Game apps, ACG (anime, comic, game) communities, tech media, geek tools. Dark base + neon glowing text + cyberpunk elements.
 
-## 设计理念
+## Design Philosophy
 
-深底色 + 霓虹发光字 + 赛博元素。游戏、二次元标配。
+Dark base + neon glowing text + cyberpunk elements. Standard for games and ACG.
 
-## 核心特点
+## Core Characteristics
 
-- ✅ 纯黑 / 深灰底色
-- ✅ 文字发光 text-shadow
-- ✅ 高饱和霓虹色（粉 / 青 / 紫）
-- ✅ 扫描线效果
+- ✅ Pure black / dark gray base
+- ✅ Glowing text with text-shadow
+- ✅ High-saturation neon colors (pink / cyan / purple)
+- ✅ Scanline effect
 
-## 色彩系统
+## Color System
 
 ```Plain Text
-深底色：  #0A0A0F
-霓虹粉：  #FF2A6D
-霓虹青：  #05D9E8
-霓虹紫：  #D300C5
+Dark Base:     #0A0A0F
+Neon Pink:     #FF2A6D
+Neon Cyan:     #05D9E8
+Neon Purple:   #D300C5
 ```
 
-## 核心 CSS
+## Core CSS
 
 ```css
 .cyber-app-bg {
@@ -65,12 +65,12 @@
 }
 ```
 
-## 组件规范
+## Component Specifications
 
-- **底色**：#0A0A0F 纯黑
-- **发光色**：粉 #FF2A6D / 青 #05D9E8 / 紫 #D300C5
-- **边框**：1px 霓虹色 + 外发光
-- **字体**：等宽字体 / 粗体无衬线
-- **适用**：游戏 APP、二次元社区、科技媒体、极客工具
+- **Base Color**: #0A0A0F pure black
+- **Glow Colors**: Pink #FF2A6D / Cyan #05D9E8 / Purple #D300C5
+- **Border**: 1px neon color + outer glow
+- **Font**: Monospace / bold sans-serif
+- **Applicable To**: Game apps, ACG communities, tech media, geek tools
 
 ---

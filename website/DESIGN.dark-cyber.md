@@ -1,36 +1,36 @@
-# 独立站 08｜暗黑科技赛博风
+# Website 08 | Dark Tech Cyberpunk Style
 
-> **推荐指数**：⭐⭐⭐⭐
-> **代表**：Web3 / 区块链 / AI黑科技 / 游戏官网
+> **Rating**: ⭐⭐⭐⭐
+> **Representatives**: Web3 / Blockchain / AI Black Tech / Game Official Websites
 > 
 > 
 
-## 适用场景
+## Applicable Scenarios
 
-Web3、区块链、AI黑科技、游戏官网、极客工具。
+Web3, blockchain, AI black tech, game official websites, geek tools.
 
-## 设计理念
+## Design Philosophy
 
-深色基底+霓虹微光+科技线条，未来感、酷感、极客风拉满，低调发光不刺眼。
+Dark base + neon glow + tech lines. Full of futuristic feel, cool vibe, and geek style. Low-key glowing without being glaring.
 
-## 核心特征
+## Core Characteristics
 
-- 深黑基底 #0A0A0A
-- 青/蓝/紫霓虹微光
-- 细科技分割线
-- 发光边框hover
-- 低饱和发光渐变
+- Deep black base #0A0A0A
+- Cyan/blue/purple neon glow
+- Thin tech divider lines
+- Glowing border on hover
+- Low-saturation glowing gradients
 
-## 色彩
+## Colors
 
 ```Plain Text
-背景：#0A0A0A
-主发光：#3CC8C8 / #5B8DEF
-文字：#E5E5E5
-辅助发光：rgba(60,200,200,0.2)
+Background: #0A0A0A
+Primary Glow: #3CC8C8 / #5B8DEF
+Text: #E5E5E5
+Secondary Glow: rgba(60,200,200,0.2)
 ```
 
-## 核心 CSS
+## Core CSS
 
 ```css
 .dark-bg {
@@ -60,8 +60,8 @@ Web3、区块链、AI黑科技、游戏官网、极客工具。
 }
 ```
 
-## 适配
+## Adaptation
 
-科技黑科技产品、Web3、元宇宙、游戏、极客工具
+Tech black tech products, Web3, metaverse, games, geek tools
 
 ---

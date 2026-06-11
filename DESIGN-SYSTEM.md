@@ -1,104 +1,103 @@
-# 2026 完整版设计规范体系
+# 2026 Complete Design System
 
-> B端SaaS管理控制台 + C端APP + 独立站 全终端覆盖
-> 共 23 套设计风格，每套包含完整 MD 规范 + HTML 预览
-
----
-
-## 📋 总目录
-
-### 🖥️ B端 SaaS 管理控制台（原有 7 套）
-
-适用于企业级后台、管理面板、数据仪表盘、开发者工具。
-
-| # | 风格 | 设计文件 | 预览 |
-|---|------|---------|------|
-| 01 | **Neumorphism 新拟态** | [adminpanel/DESIGN.neumorphism.md](adminpanel/DESIGN.neumorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/neumorphism.preview.html) |
-| 02 | **Glassmorphism 玻璃拟态** | [adminpanel/DESIGN.glassmorphism.md](adminpanel/DESIGN.glassmorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/glassmorphism.preview.html) |
-| 03 | **Cyberpunk 赛博朋克** | [adminpanel/DESIGN.cyberpunk.md](adminpanel/DESIGN.cyberpunk.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/cyberpunk.preview.html) |
-| 04 | **Claymorphism 粘土软UI** | [adminpanel/DESIGN.claymorphism.md](adminpanel/DESIGN.claymorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/claymorphism.preview.html) |
-| 05 | **Minimalism 极简留白** | [adminpanel/DESIGN.minimalism.md](adminpanel/DESIGN.minimalism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/minimalism.preview.html) |
-| 06 | **Retro Futurism 复古未来** | [adminpanel/DESIGN.retro-futurism.md](adminpanel/DESIGN.retro-futurism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/retro-futurism.preview.html) |
-| 07 | **Aurora Gradient 极光弥散** | [adminpanel/DESIGN.aurora.md](adminpanel/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/aurora.preview.html) |
+> Full coverage: B2B SaaS Admin Panel + C-end APP + Website
+> 23 design styles, each with complete MD spec + HTML preview
 
 ---
 
-### 📱 C端 APP（新增 8 套）
+## 📋 Master Index
 
-适用于移动端应用、社交、工具、生活方式类产品。
+### 🖥️ B2B SaaS Admin Panel (7 styles)
 
-| # | 风格 | 设计文件 | 预览 |
-|---|------|---------|------|
-| 01 | **粘土软UI Claymorphism** | [app/DESIGN.claymorphism.md](app/DESIGN.claymorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/claymorphism.preview.html) |
-| 02 | **极光弥散风 Aurora** | [app/DESIGN.aurora.md](app/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/aurora.preview.html) |
-| 03 | **Y2K 千禧复古风** | [app/DESIGN.y2k.md](app/DESIGN.y2k.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/y2k.preview.html) |
-| 04 | **极简留白轻量风** | [app/DESIGN.minimalism.md](app/DESIGN.minimalism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/minimalism.preview.html) |
-| 05 | **新拟态柔色柔光风** | [app/DESIGN.neumorphism.md](app/DESIGN.neumorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/neumorphism.preview.html) |
-| 06 | **暗黑霓虹赛博风** | [app/DESIGN.cyberpunk.md](app/DESIGN.cyberpunk.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/cyberpunk.preview.html) |
-| 07 | **微渐变轻质感风** | [app/DESIGN.micro-gradient.md](app/DESIGN.micro-gradient.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/micro-gradient.preview.html) |
-| 08 | **圆润治愈卡片风** | [app/DESIGN.rounded-card.md](app/DESIGN.rounded-card.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/rounded-card.preview.html) |
+For enterprise backends, admin dashboards, data visualization, and developer tools.
 
----
-
-### 🌐 独立站（新增 8 套）
-
-适用于品牌官网、产品落地页、营销页、内容展示站。
-
-| # | 风格 | 设计文件 | 预览 |
-|---|------|---------|------|
-| 01 | **极光弥散风 Aurora** | [website/DESIGN.aurora.md](website/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/aurora.preview.html) |
-| 02 | **Bento 网格模块化风** | [website/DESIGN.bento.md](website/DESIGN.bento.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/bento.preview.html) |
-| 03 | **Apple 极简留白高端风** | [website/DESIGN.apple-minimal.md](website/DESIGN.apple-minimal.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/apple-minimal.preview.html) |
-| 04 | **全屏超大字体冲击风** | [website/DESIGN.big-type.md](website/DESIGN.big-type.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/big-type.preview.html) |
-| 05 | **新粗野主义 Neo Brutalism** | [website/DESIGN.brutalism.md](website/DESIGN.brutalism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/brutalism.preview.html) |
-| 06 | **3D 视差沉浸交互风** | [website/DESIGN.3d-parallax.md](website/DESIGN.3d-parallax.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/3d-parallax.preview.html) |
-| 07 | **杂志栅格编辑风** | [website/DESIGN.magazine.md](website/DESIGN.magazine.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/magazine.preview.html) |
-| 08 | **暗黑科技赛博风** | [website/DESIGN.dark-cyber.md](website/DESIGN.dark-cyber.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/dark-cyber.preview.html) |
+| # | Style | Spec File | Preview |
+|---|-------|-----------|---------|
+| 01 | **Neumorphism** | [adminpanel/DESIGN.neumorphism.md](adminpanel/DESIGN.neumorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/neumorphism.preview.html) |
+| 02 | **Glassmorphism** | [adminpanel/DESIGN.glassmorphism.md](adminpanel/DESIGN.glassmorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/glassmorphism.preview.html) |
+| 03 | **Cyberpunk** | [adminpanel/DESIGN.cyberpunk.md](adminpanel/DESIGN.cyberpunk.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/cyberpunk.preview.html) |
+| 04 | **Claymorphism** | [adminpanel/DESIGN.claymorphism.md](adminpanel/DESIGN.claymorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/claymorphism.preview.html) |
+| 05 | **Minimalism** | [adminpanel/DESIGN.minimalism.md](adminpanel/DESIGN.minimalism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/minimalism.preview.html) |
+| 06 | **Retro Futurism** | [adminpanel/DESIGN.retro-futurism.md](adminpanel/DESIGN.retro-futurism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/retro-futurism.preview.html) |
+| 07 | **Aurora Gradient** | [adminpanel/DESIGN.aurora.md](adminpanel/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/adminpanel/aurora.preview.html) |
 
 ---
 
-## 🎯 风格选择指南
+### 📱 C-end APP (8 styles)
 
-### 按产品类型选择
+For mobile applications, social, tools, and lifestyle products.
 
-| 产品类型 | B端推荐 | APP推荐 | 独立站推荐 |
-|---------|---------|---------|-----------|
-| AI / SaaS | Aurora + Glassmorphism | 极光弥散风 | 极光弥散风 / Bento网格 |
-| B2B 企业 | Minimalism + Aurora | 极简留白风 | Apple极简 / 杂志栅格 |
-| B2C 消费 | Claymorphism | 粘土软UI / 圆润治愈 | Bento网格 / 大字体 |
-| Web3 / 元宇宙 | Glassmorphism + Cyberpunk | 暗黑霓虹赛博 | 暗黑科技赛博 |
-| 游戏 / 二次元 | Cyberpunk | 暗黑霓虹赛博 | 3D视差沉浸 |
-| 高端品牌 | Minimalism | 极简留白风 | Apple极简 |
-| 潮牌 / Z世代 | Retro Futurism | Y2K / 新拟态 | 新粗野主义 |
-| 工具 / 效率 | Neumorphism + Aurora | 微渐变轻质感 / 新拟态 | Bento网格 |
-| 生活方式 | — | 圆润治愈卡片风 | 杂志栅格 |
-
-### 跨终端风格映射
-
-部分风格在多个终端中均有应用，但规范根据终端特性有所调整：
-
-| 风格 | B端SaaS | C端APP | 独立站 |
-|------|---------|--------|--------|
-| Aurora 极光 | ✅ | ✅ | ✅ |
-| Claymorphism 粘土 | ✅ | ✅ | — |
-| Minimalism 极简 | ✅ | ✅ | ✅ |
-| Cyberpunk 赛博 | ✅ | ✅ | ✅ |
-| Glassmorphism 玻璃 | ✅ | ✅ | — |
-| Neumorphism 新拟态 | ✅ | ✅ | — |
-| Retro/Y2K 复古 | ✅ | ✅ | — |
+| # | Style | Spec File | Preview |
+|---|-------|-----------|---------|
+| 01 | **Claymorphism** | [app/DESIGN.claymorphism.md](app/DESIGN.claymorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/claymorphism.preview.html) |
+| 02 | **Aurora Gradient** | [app/DESIGN.aurora.md](app/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/aurora.preview.html) |
+| 03 | **Y2K Retro** | [app/DESIGN.y2k.md](app/DESIGN.y2k.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/y2k.preview.html) |
+| 04 | **Minimalism** | [app/DESIGN.minimalism.md](app/DESIGN.minimalism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/minimalism.preview.html) |
+| 05 | **Neumorphism** | [app/DESIGN.neumorphism.md](app/DESIGN.neumorphism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/neumorphism.preview.html) |
+| 06 | **Cyberpunk** | [app/DESIGN.cyberpunk.md](app/DESIGN.cyberpunk.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/cyberpunk.preview.html) |
+| 07 | **Micro Gradient** | [app/DESIGN.micro-gradient.md](app/DESIGN.micro-gradient.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/micro-gradient.preview.html) |
+| 08 | **Rounded Card** | [app/DESIGN.rounded-card.md](app/DESIGN.rounded-card.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/app/rounded-card.preview.html) |
 
 ---
 
-## 📁 文件结构
+### 🌐 Website (8 styles)
+
+For brand websites, product landing pages, marketing pages, and content showcases.
+
+| # | Style | Spec File | Preview |
+|---|-------|-----------|---------|
+| 01 | **Aurora Gradient** | [website/DESIGN.aurora.md](website/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/aurora.preview.html) |
+| 02 | **Bento Grid** | [website/DESIGN.bento.md](website/DESIGN.bento.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/bento.preview.html) |
+| 03 | **Apple Minimal** | [website/DESIGN.apple-minimal.md](website/DESIGN.apple-minimal.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/apple-minimal.preview.html) |
+| 04 | **Big Typography** | [website/DESIGN.big-type.md](website/DESIGN.big-type.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/big-type.preview.html) |
+| 05 | **Neo Brutalism** | [website/DESIGN.brutalism.md](website/DESIGN.brutalism.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/brutalism.preview.html) |
+| 06 | **3D Parallax** | [website/DESIGN.3d-parallax.md](website/DESIGN.3d-parallax.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/3d-parallax.preview.html) |
+| 07 | **Magazine Grid** | [website/DESIGN.magazine.md](website/DESIGN.magazine.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/magazine.preview.html) |
+| 08 | **Dark Cyber** | [website/DESIGN.dark-cyber.md](website/DESIGN.dark-cyber.md) | [Preview](https://wraithn.github.io/awesome-aicoding-designnrules/website/dark-cyber.preview.html) |
+
+---
+
+## 🎯 Style Selection Guide
+
+### By Product Type
+
+| Product Type | B2B Recommended | APP Recommended | Website Recommended |
+|-------------|-----------------|-----------------|---------------------|
+| AI / SaaS | Aurora + Glassmorphism | Aurora Gradient | Aurora / Bento |
+| B2B Enterprise | Minimalism + Aurora | Minimalism | Apple Minimal / Magazine |
+| B2C Consumer | Claymorphism | Claymorphism / Rounded Card | Bento / Big Typography |
+| Web3 / Metaverse | Glassmorphism + Cyberpunk | Cyberpunk | Dark Cyber |
+| Gaming | Cyberpunk | Cyberpunk | 3D Parallax |
+| Luxury / High-end | Minimalism | Minimalism | Apple Minimal |
+| Lifestyle | — | Rounded Card | Magazine |
+| Tools / Efficiency | Neumorphism + Aurora | Micro Gradient / Neumorphism | Bento |
+
+### Cross-Terminal Style Mapping
+
+Some styles are available across multiple terminals, with specs adjusted per terminal:
+
+| Style | B2B SaaS | C-end APP | Website |
+|-------|----------|-----------|---------|
+| Aurora Gradient | ✅ | ✅ | ✅ |
+| Claymorphism | ✅ | ✅ | — |
+| Minimalism | ✅ | ✅ | ✅ |
+| Cyberpunk | ✅ | ✅ | ✅ |
+| Glassmorphism | ✅ | ✅ | — |
+| Neumorphism | ✅ | ✅ | — |
+| Retro / Y2K | ✅ | ✅ | — |
+
+---
+
+## 📁 File Structure
 
 ```
 .
-├── README.md                          # 项目概览
-├── DESIGN-SYSTEM.md                   # 本文件 — 总目录
-├── AGENTS.user.md                     # AI代理行为规则
-├── TODO.md                            # 项目待办事项
+├── README.md                          # Project overview
+├── DESIGN-SYSTEM.md                   # This file — master index
+├── AGENTS.user.md                     # AI agent behavior rules
+├── TODO.md                            # Project todo list
 │
-├── adminpanel/                        # B端SaaS管理控制台（原有7套）
+├── adminpanel/                        # B2B SaaS Admin Panel (7 styles)
 │   ├── DESIGN.neumorphism.md
 │   ├── neumorphism.preview.html
 │   ├── DESIGN.glassmorphism.md
@@ -114,7 +113,7 @@
 │   ├── DESIGN.aurora.md
 │   └── aurora.preview.html
 │
-├── app/                               # C端APP（新增8套）
+├── app/                               # C-end APP (8 styles)
 │   ├── DESIGN.claymorphism.md
 │   ├── claymorphism.preview.html
 │   ├── DESIGN.aurora.md
@@ -132,7 +131,7 @@
 │   ├── DESIGN.rounded-card.md
 │   └── rounded-card.preview.html
 │
-└── website/                           # 独立站（新增8套）
+└── website/                           # Website (8 styles)
     ├── DESIGN.aurora.md
     ├── aurora.preview.html
     ├── DESIGN.bento.md

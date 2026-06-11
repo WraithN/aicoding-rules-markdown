@@ -1,36 +1,36 @@
-# 独立站 06｜3D 视差沉浸交互风
+# Website 06 | 3D Parallax Immersive Interaction Style
 
-> **推荐指数**：⭐⭐⭐⭐
-> **代表**：硬件产品 / 汽车官网 / 元宇宙
+> **Rating**: ⭐⭐⭐⭐
+> **Representatives**: Hardware Products / Automotive Official Websites / Metaverse
 > 
 > 
 
-## 适用场景
+## Applicable Scenarios
 
-硬件产品、汽车官网、元宇宙、AI视觉产品、高端品牌落地页。
+Hardware products, automotive official websites, metaverse, AI visual products, premium brand landing pages.
 
-## 设计理念
+## Design Philosophy
 
-通过视差滚动、鼠标跟随3D位移、图层分层，打造网页级沉浸立体效果，打破二维平面局限。
+Through parallax scrolling, mouse-follow 3D displacement, and layer separation, create web-level immersive 3D effects that break the limitations of two-dimensional planes.
 
-## 核心特征
+## Core Characteristics
 
-- 多层图层视差滚动
-- 鼠标悬浮轻微3D倾斜
-- 3D模型/立体图形搭配
-- 柔和光影渐变
-- 滚动动效连贯丝滑
+- Multi-layer parallax scrolling
+- Mouse hover subtle 3D tilt
+- 3D models / stereoscopic graphics paired
+- Soft light and shadow gradients
+- Smooth and coherent scroll animations
 
-## 技术要点
+## Technical Points
 
 ```Plain Text
-transform perspective 透视
-translateZ 层级位移
-滚动监听分层运动
-低饱和光影烘托立体
+transform perspective perspective
+translateZ layer displacement
+Scroll listener layered movement
+Low-saturation light and shadow enhance 3D depth
 ```
 
-## 核心 CSS
+## Core CSS
 
 ```css
 .parallax-container {
@@ -46,15 +46,15 @@ translateZ 层级位移
 .parallax-layer-2 { transform: translateZ(100px); }
 .parallax-layer-3 { transform: translateZ(150px); }
 
-/* 鼠标跟随3D倾斜 */
+/* Mouse-follow 3D tilt */
 .tilt-3d {
   transform-style: preserve-3d;
   transition: transform 0.1s ease-out;
 }
 ```
 
-## 适用
+## Applicability
 
-高端硬件、科技旗舰产品、发布会官网、元宇宙项目
+Premium hardware, tech flagship products, launch event official websites, metaverse projects
 
 ---

@@ -1,34 +1,34 @@
-# 独立站 07｜杂志栅格编辑风
+# Website 07 | Magazine Grid Editorial Style
 
-> **推荐指数**：⭐⭐⭐⭐
-> **代表**：媒体官网 / 博客 / 设计杂志
+> **Rating**: ⭐⭐⭐⭐
+> **Representatives**: Media Official Websites / Blogs / Design Magazines
 > 
 > 
 
-## 适用场景
+## Applicable Scenarios
 
-媒体官网、博客、设计杂志、内容平台、图文展示站。
+Media official websites, blogs, design magazines, content platforms, image-text showcase sites.
 
-## 设计理念
+## Design Philosophy
 
-严格栅格系统、图文错落排版、留白克制、层级清晰，复刻高端杂志排版质感，阅读体验极佳。
+Strict grid system, staggered image-text layout, restrained white space, clear hierarchy. Replicates the typographic quality of premium magazines, with excellent reading experience.
 
-## 核心特征
+## Core Characteristics
 
-- 严格12列栅格布局
-- 大图小文字、大文字小图交错
-- 统一基线对齐
-- 优雅图文混排
-- 无花哨动效，专注阅读
+- Strict 12-column grid layout
+- Large images with small text, large text with small images alternating
+- Unified baseline alignment
+- Elegant image-text mixed layout
+- No flashy animations, focus on reading
 
-## 排版
+## Typography
 
 ```Plain Text
-标题粗、正文细、行高宽松
-图片圆角统一、留白统一
+Bold titles, thin body text, generous line-height
+Unified image border-radius, unified white space
 ```
 
-## 核心 CSS
+## Core CSS
 
 ```css
 .magazine-grid {
@@ -65,8 +65,8 @@
 }
 ```
 
-## 优势
+## Advantages
 
-专业、文艺、高级、适合内容型独立站
+Professional, artistic, premium, suitable for content-based independent websites
 
 ---

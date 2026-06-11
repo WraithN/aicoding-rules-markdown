@@ -1,38 +1,38 @@
-# APP 04｜极简留白轻量风
+# APP 04｜Minimalist White Space Lightweight Style
 
-> **推荐指数**：⭐⭐⭐⭐⭐
-> **代表**：Apple Music / Airbnb / 字节系新产品
-> **用户体验最佳**
+> **Recommendation**: ⭐⭐⭐⭐⭐
+> **Representatives**: Apple Music / Airbnb / ByteDance New Products
+> **Best User Experience**
 > 
 > 
 
-## 适用场景
+## Use Cases
 
-所有 iOS APP、效率工具、内容阅读类、电商 APP。超大留白、细字重、无装饰。
+All iOS apps, productivity tools, content reading, and e-commerce apps. Extra large white space, thin font weight, no decoration.
 
-## 设计理念
+## Design Philosophy
 
-超大留白、细字重、无装饰。iOS 官方设计语言。
+Extra large white space, thin font weight, no decoration. Official iOS design language.
 
-## 核心特点
+## Core Characteristics
 
-- ✅ 间距是普通设计的 1.5 倍
-- ✅ 大量留白，呼吸感强
-- ✅ 字重对比清晰
-- ✅ 系统原生字体
+- ✅ Spacing is 1.5x that of standard design
+- ✅ Abundant white space, strong breathing room
+- ✅ Clear font weight contrast
+- ✅ System native fonts
 
-## 色彩系统
+## Color System
 
 ```Plain Text
-纯黑：   #000000
-深灰：   #1C1C1E
-中灰：   #8E8E93
-浅灰：   #C7C7CC
-背景白： #FFFFFF
-系统蓝： #007AFF
+Pure Black:     #000000
+Dark Gray:      #1C1C1E
+Medium Gray:    #8E8E93
+Light Gray:     #C7C7CC
+Background White: #FFFFFF
+System Blue:    #007AFF
 ```
 
-## 核心 CSS
+## Core CSS
 
 ```css
 .large-title {
@@ -68,12 +68,12 @@
 }
 ```
 
-## 组件规范
+## Component Specifications
 
-- **圆角**：12px（卡片）/ 10px（按钮）
-- **间距**：标准间距的 1.5 倍
-- **字体**：系统原生字体（-apple-system, San Francisco）
-- **分割线**：0.5px 浅灰线
-- **适用**：所有 iOS APP、效率工具、内容阅读类、电商 APP
+- **Border Radius**: 12px (cards) / 10px (buttons)
+- **Spacing**: 1.5x standard spacing
+- **Font**: System native fonts (-apple-system, San Francisco)
+- **Dividers**: 0.5px light gray lines
+- **Applicable To**: All iOS apps, productivity tools, content reading, e-commerce apps
 
 ---

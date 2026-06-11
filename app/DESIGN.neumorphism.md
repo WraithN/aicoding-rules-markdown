@@ -1,36 +1,36 @@
-# APP 05｜新拟态柔色柔光风
+# APP 05｜Soft Neumorphism Soft Light Style
 
-> **推荐指数**：⭐⭐⭐⭐
-> **代表**：计算器类工具 / 音乐播放器 / 智能家居控制面板
+> **Recommendation**: ⭐⭐⭐⭐
+> **Representatives**: Calculator Tools / Music Players / Smart Home Control Panels
 > 
 > 
 
-## 适用场景
+## Use Cases
 
-工具类 APP、智能家居控制、音乐播放器、计算器。比传统新拟态更柔和，适配现代APP界面。
+Utility apps, smart home control, music players, calculators. Softer than traditional neumorphism, adapted to modern app interfaces.
 
-## 设计理念
+## Design Philosophy
 
-在同色系背景上通过明暗阴影创造浮雕质感，柔化处理降低视觉疲劳，适配移动端高频使用场景。
+Creates a relief texture through light and dark shadows on a same-color-family background. Softened treatment reduces visual fatigue, adapted to high-frequency mobile usage scenarios.
 
-## 核心特点
+## Core Characteristics
 
-- ✅ 同色系明暗阴影（无高对比）
-- ✅ 柔和圆角 16-24px
-- ✅ 按钮按压凹陷反馈
-- ✅ 低饱和配色，长时间使用不疲劳
+- ✅ Same-color-family light and dark shadows (no high contrast)
+- ✅ Soft border radius 16-24px
+- ✅ Button press indentation feedback
+- ✅ Low-saturation color scheme, not tiring for long-term use
 
-## 色彩系统
+## Color System
 
 ```Plain Text
-背景色：#E8ECF1
-亮阴影：#FFFFFF
-暗阴影：#C5CDD7
-文字色：#5A6578
-主色调：#7877C6（柔紫）
+Background:    #E8ECF1
+Light Shadow:  #FFFFFF
+Dark Shadow:   #C5CDD7
+Text Color:    #5A6578
+Primary Color: #7877C6 (Soft Purple)
 ```
 
-## 核心 CSS
+## Core CSS
 
 ```css
 .neo-app-card {
@@ -68,12 +68,12 @@
 }
 ```
 
-## 组件规范
+## Component Specifications
 
-- **圆角**：16-24px（卡片）/ 12-16px（按钮）
-- **阴影偏移**：4-6px
-- **阴影模糊**：8-12px
-- **按压态**：inset 阴影替代外阴影
-- **适用**：工具 APP、智能家居、音乐播放器、控制面板
+- **Border Radius**: 16-24px (cards) / 12-16px (buttons)
+- **Shadow Offset**: 4-6px
+- **Shadow Blur**: 8-12px
+- **Pressed State**: inset shadow replaces outer shadow
+- **Applicable To**: Utility apps, smart home, music players, control panels
 
 ---
