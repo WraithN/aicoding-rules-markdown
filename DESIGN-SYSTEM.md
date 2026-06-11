@@ -13,13 +13,13 @@
 
 | # | 风格 | 设计文件 | 预览 |
 |---|------|---------|------|
-| 01 | **Neumorphism 新拟态** | [adminpanel/DESIGN.neumorphism.md](adminpanel/DESIGN.neumorphism.md) | [Preview](adminpanel/neumorphism.preview.html) |
-| 02 | **Glassmorphism 玻璃拟态** | [adminpanel/DESIGN.glassmorphism.md](adminpanel/DESIGN.glassmorphism.md) | [Preview](adminpanel/glassmorphism.preview.html) |
-| 03 | **Cyberpunk 赛博朋克** | [adminpanel/DESIGN.cyberpunk.md](adminpanel/DESIGN.cyberpunk.md) | [Preview](adminpanel/cyberpunk.preview.html) |
-| 04 | **Claymorphism 粘土软UI** | [adminpanel/DESIGN.claymorphism.md](adminpanel/DESIGN.claymorphism.md) | [Preview](adminpanel/claymorphism.preview.html) |
-| 05 | **Minimalism 极简留白** | [adminpanel/DESIGN.minimalism.md](adminpanel/DESIGN.minimalism.md) | [Preview](adminpanel/minimalism.preview.html) |
-| 06 | **Retro Futurism 复古未来** | [adminpanel/DESIGN.retro-futurism.md](adminpanel/DESIGN.retro-futurism.md) | [Preview](adminpanel/retro-futurism.preview.html) |
-| 07 | **Aurora Gradient 极光弥散** | [adminpanel/DESIGN.aurora.md](adminpanel/DESIGN.aurora.md) | [Preview](adminpanel/aurora.preview.html) |
+| 01 | **Neumorphism 新拟态** | [adminpanel/DESIGN.neumorphism.md](adminpanel/DESIGN.neumorphism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/neumorphism.preview.html) |
+| 02 | **Glassmorphism 玻璃拟态** | [adminpanel/DESIGN.glassmorphism.md](adminpanel/DESIGN.glassmorphism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/glassmorphism.preview.html) |
+| 03 | **Cyberpunk 赛博朋克** | [adminpanel/DESIGN.cyberpunk.md](adminpanel/DESIGN.cyberpunk.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/cyberpunk.preview.html) |
+| 04 | **Claymorphism 粘土软UI** | [adminpanel/DESIGN.claymorphism.md](adminpanel/DESIGN.claymorphism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/claymorphism.preview.html) |
+| 05 | **Minimalism 极简留白** | [adminpanel/DESIGN.minimalism.md](adminpanel/DESIGN.minimalism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/minimalism.preview.html) |
+| 06 | **Retro Futurism 复古未来** | [adminpanel/DESIGN.retro-futurism.md](adminpanel/DESIGN.retro-futurism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/retro-futurism.preview.html) |
+| 07 | **Aurora Gradient 极光弥散** | [adminpanel/DESIGN.aurora.md](adminpanel/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/adminpanel/aurora.preview.html) |
 
 ---
 
@@ -29,14 +29,14 @@
 
 | # | 风格 | 设计文件 | 预览 |
 |---|------|---------|------|
-| 01 | **粘土软UI Claymorphism** | [app/DESIGN.claymorphism.md](app/DESIGN.claymorphism.md) | [Preview](app/claymorphism.preview.html) |
-| 02 | **极光弥散风 Aurora** | [app/DESIGN.aurora.md](app/DESIGN.aurora.md) | [Preview](app/aurora.preview.html) |
-| 03 | **Y2K 千禧复古风** | [app/DESIGN.y2k.md](app/DESIGN.y2k.md) | [Preview](app/y2k.preview.html) |
-| 04 | **极简留白轻量风** | [app/DESIGN.minimalism.md](app/DESIGN.minimalism.md) | [Preview](app/minimalism.preview.html) |
-| 05 | **新拟态柔色柔光风** | [app/DESIGN.neumorphism.md](app/DESIGN.neumorphism.md) | [Preview](app/neumorphism.preview.html) |
-| 06 | **暗黑霓虹赛博风** | [app/DESIGN.cyberpunk.md](app/DESIGN.cyberpunk.md) | [Preview](app/cyberpunk.preview.html) |
-| 07 | **微渐变轻质感风** | [app/DESIGN.micro-gradient.md](app/DESIGN.micro-gradient.md) | [Preview](app/micro-gradient.preview.html) |
-| 08 | **圆润治愈卡片风** | [app/DESIGN.rounded-card.md](app/DESIGN.rounded-card.md) | [Preview](app/rounded-card.preview.html) |
+| 01 | **粘土软UI Claymorphism** | [app/DESIGN.claymorphism.md](app/DESIGN.claymorphism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/claymorphism.preview.html) |
+| 02 | **极光弥散风 Aurora** | [app/DESIGN.aurora.md](app/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/aurora.preview.html) |
+| 03 | **Y2K 千禧复古风** | [app/DESIGN.y2k.md](app/DESIGN.y2k.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/y2k.preview.html) |
+| 04 | **极简留白轻量风** | [app/DESIGN.minimalism.md](app/DESIGN.minimalism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/minimalism.preview.html) |
+| 05 | **新拟态柔色柔光风** | [app/DESIGN.neumorphism.md](app/DESIGN.neumorphism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/neumorphism.preview.html) |
+| 06 | **暗黑霓虹赛博风** | [app/DESIGN.cyberpunk.md](app/DESIGN.cyberpunk.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/cyberpunk.preview.html) |
+| 07 | **微渐变轻质感风** | [app/DESIGN.micro-gradient.md](app/DESIGN.micro-gradient.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/micro-gradient.preview.html) |
+| 08 | **圆润治愈卡片风** | [app/DESIGN.rounded-card.md](app/DESIGN.rounded-card.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/app/rounded-card.preview.html) |
 
 ---
 
@@ -46,14 +46,14 @@
 
 | # | 风格 | 设计文件 | 预览 |
 |---|------|---------|------|
-| 01 | **极光弥散风 Aurora** | [website/DESIGN.aurora.md](website/DESIGN.aurora.md) | [Preview](website/aurora.preview.html) |
-| 02 | **Bento 网格模块化风** | [website/DESIGN.bento.md](website/DESIGN.bento.md) | [Preview](website/bento.preview.html) |
-| 03 | **Apple 极简留白高端风** | [website/DESIGN.apple-minimal.md](website/DESIGN.apple-minimal.md) | [Preview](website/apple-minimal.preview.html) |
-| 04 | **全屏超大字体冲击风** | [website/DESIGN.big-type.md](website/DESIGN.big-type.md) | [Preview](website/big-type.preview.html) |
-| 05 | **新粗野主义 Neo Brutalism** | [website/DESIGN.brutalism.md](website/DESIGN.brutalism.md) | [Preview](website/brutalism.preview.html) |
-| 06 | **3D 视差沉浸交互风** | [website/DESIGN.3d-parallax.md](website/DESIGN.3d-parallax.md) | [Preview](website/3d-parallax.preview.html) |
-| 07 | **杂志栅格编辑风** | [website/DESIGN.magazine.md](website/DESIGN.magazine.md) | [Preview](website/magazine.preview.html) |
-| 08 | **暗黑科技赛博风** | [website/DESIGN.dark-cyber.md](website/DESIGN.dark-cyber.md) | [Preview](website/dark-cyber.preview.html) |
+| 01 | **极光弥散风 Aurora** | [website/DESIGN.aurora.md](website/DESIGN.aurora.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/aurora.preview.html) |
+| 02 | **Bento 网格模块化风** | [website/DESIGN.bento.md](website/DESIGN.bento.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/bento.preview.html) |
+| 03 | **Apple 极简留白高端风** | [website/DESIGN.apple-minimal.md](website/DESIGN.apple-minimal.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/apple-minimal.preview.html) |
+| 04 | **全屏超大字体冲击风** | [website/DESIGN.big-type.md](website/DESIGN.big-type.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/big-type.preview.html) |
+| 05 | **新粗野主义 Neo Brutalism** | [website/DESIGN.brutalism.md](website/DESIGN.brutalism.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/brutalism.preview.html) |
+| 06 | **3D 视差沉浸交互风** | [website/DESIGN.3d-parallax.md](website/DESIGN.3d-parallax.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/3d-parallax.preview.html) |
+| 07 | **杂志栅格编辑风** | [website/DESIGN.magazine.md](website/DESIGN.magazine.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/magazine.preview.html) |
+| 08 | **暗黑科技赛博风** | [website/DESIGN.dark-cyber.md](website/DESIGN.dark-cyber.md) | [Preview](https://wraithn.github.io/aicoding-rules-markdown/website/dark-cyber.preview.html) |
 
 ---
 
